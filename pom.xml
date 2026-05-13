@@ -32,12 +32,12 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.11.0</version>
+         <configuration>
+             <release>8</release>
+         </configuration>
+       </plugin>
                     <plugin>
                    <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-war-plugin</artifactId>
@@ -100,7 +100,7 @@
 
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>2.3.2</version>
+          <version>3.11.0</version>
         </plugin>
 
         <plugin>
